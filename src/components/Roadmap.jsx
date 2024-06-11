@@ -6,7 +6,7 @@ const Roadmap = () => {
   return (
     <section className="roadmap">
       <h1>Roadmap</h1>
-      <div className="roadmap-inner">
+      <div className="roadmap-inner mq825:flex-col">
         <div>
           <h2 id="Phase1">PHASE1</h2>
           <ul>
@@ -21,7 +21,7 @@ const Roadmap = () => {
         </div>
         <img src={R1} alt="" />
       </div>
-      <div className="roadmap-inner">
+      <div className="roadmap-inner mq825:flex-col">
         <div>
           <h2>PHASE2</h2>
           <ul>
@@ -42,7 +42,7 @@ const Roadmap = () => {
         </div>
         <img src={R2} alt="" />
       </div>
-      <div className="roadmap-inner">
+      <div className="roadmap-inner mq825:flex-col">
         <div>
           <h2>PHASE3</h2>
           <ul>

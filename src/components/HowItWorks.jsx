@@ -4,7 +4,7 @@ const HowItWorks = () => {
   return (
     <>
       <br />
-      <section className="howItWorks">
+      <section className="howItWorks mq825:flex mq825:flex-col">
         <img src={P10} alt="rob" />
 
         <div>

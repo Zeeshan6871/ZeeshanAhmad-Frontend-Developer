@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import AIGEN from "./pages/AIGEN";
 import "./index.css";
+import "animate.css/animate.compat.css";
 function App() {
   return (
     <>
